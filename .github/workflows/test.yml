@@ -2,7 +2,7 @@ name: CI
 on: [push]
 jobs:
   build-qq-ci:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout
       uses: actions/checkout@master
@@ -15,5 +15,6 @@ jobs:
         PLUGIN_APPTOKEN: b1dc5aab833af6a21118bbfa10e82f64
         PLUGIN_BUILDUSER: ${ GITHUB_ACTOR }
         PLUGIN_EXPERIENCE: true
+        WINEPREFIX: /github/home/.wine
 
 
