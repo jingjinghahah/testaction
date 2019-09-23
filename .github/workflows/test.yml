@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build-qq-ci:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
 
