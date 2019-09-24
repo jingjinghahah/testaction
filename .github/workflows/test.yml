@@ -6,7 +6,6 @@ jobs:
   build-qq-ci:
 
     runs-on: ubuntu-latest
-
     steps:
 
     - name: Checkout
