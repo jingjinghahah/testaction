@@ -18,6 +18,6 @@ jobs:
         PLUGIN_VERSION: 1.5.8
         PLUGIN_DESC: CI自动构建上传
         PLUGIN_APPTOKEN: ${{ secrets.APPTOKEN }}
-        PLUGIN_BUILDUSER: $GITHUB_ACTOR
+        PLUGIN_BUILDUSER: ${{github.actor}}
         PLUGIN_EXPERIENCE: true
 
