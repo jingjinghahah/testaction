@@ -5,7 +5,7 @@ on:
     branches:
     - master
     - release/*
-    
+
 jobs:
   build-qq-ci:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build
-      uses: docker://qqminiapp/build:1.0.0
+      uses: docker://qqminiapp/build:latest
       env:
         PLUGIN_VERSION: 1.5.8
         PLUGIN_DESC: CI自动构建上传
