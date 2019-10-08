@@ -5,10 +5,9 @@ on:
     branches:
     - master
     - release/*
-    
+
 jobs:
   build-qq-ci:
-
     runs-on: ubuntu-latest
     steps:
 
