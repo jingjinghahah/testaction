@@ -1,0 +1,21 @@
+{
+  "name": "test_git",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/jingjingwu/test_git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "utils": "^0.3.1"
+  }
+}
