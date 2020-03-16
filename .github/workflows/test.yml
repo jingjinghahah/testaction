@@ -22,4 +22,5 @@ jobs:
         PLUGIN_APPTOKEN: ${{ secrets.APPTOKEN }}
         PLUGIN_BUILDUSER: ${{github.actor}}
         PLUGIN_EXPERIENCE: true
+        PLUGIN_NPMBUILD: true
 
